@@ -13,16 +13,6 @@ var PlayerView = Backbone.View.extend({
       this.model.ended();
 
     }).bind(this) )
-
-    // this.model.on('ended', function() {
-     
-    //   this.models.shift();
-    //   this.models.setSong(this.models[0])
-    // }
-    // }, this)
-
-
-
   },
 
   setSong: function(song) {
